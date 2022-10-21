@@ -52,11 +52,10 @@ requirements:
     - seaborn
     - click
     - parallel
-    - java-jre
+    - java-jdk
     - iqtree
-    - etetoolkit
     - ete3
-    - ete_toolchain
+    #- ete_toolchain
     
 
 test:
