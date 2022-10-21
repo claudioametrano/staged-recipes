@@ -3,7 +3,7 @@
 # Using the name variable with the URL in line 14 is convenient
 # when copying and pasting from another recipe, but not really needed.
 {% set name = "UnFATE" %}
-{% set version = "1.0.0-alpha1" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -54,6 +54,9 @@ requirements:
     - parallel
     - java-jre
     - iqtree
+    - etetoolkit
+    - ete3
+    - ete_toolchain
     
 
 test:
